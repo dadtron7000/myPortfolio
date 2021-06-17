@@ -58,8 +58,8 @@ main {
 }
 
 .content {
-    display: grid;
-    grid-template: 1fr 1fr / 1fr 1fr;
+    display: flex wrap;
+    
     justify-content: space-around;
     border-left: 5px solid black;
     padding: 0 20px 20px 20px;
@@ -80,7 +80,7 @@ main {
     border-radius: 45px;
 }
 
-#container {
+.container {
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
     grid-gap: 20px;
